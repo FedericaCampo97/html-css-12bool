@@ -7,14 +7,31 @@ body {
     max-width: 1170px;
     margin: auto;
 }
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
 .col {
     background-color: blue;
-    height: 40px;
     border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 8px;
+    min-height: 40px;
 }
 .col > span {
     color: white;
+}
+.colgreen {
+    background-color: rgba(10, 212, 10, 0.863);
+    border: blue 1px solid;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.container2{
+    max-width: 1170px;
+    margin: 20px auto;
 }
